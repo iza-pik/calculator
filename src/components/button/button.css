@@ -1,0 +1,13 @@
+.key {
+  width: 25vmin;
+  height: 25vmin;
+  border: 1vmin solid rgba(220, 20, 60, 0.5);
+  box-shadow: 0 0 5px black;
+  border-radius: 10%;
+  background-color: lightgoldenrodyellow;
+}
+
+.key:disabled {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
